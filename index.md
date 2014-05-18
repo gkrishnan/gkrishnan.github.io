@@ -6,7 +6,8 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Welcome to Gopi Krishnan Nambiar's homepage.
+Welcome 
+to Gopi Krishnan Nambiar's homepage!
 This page is currently under construction, but feel free to browse through.. Most of it already works :=)
 
 ## Posts
