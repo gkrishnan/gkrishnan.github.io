@@ -10,7 +10,7 @@ tagline: Supporting tagline
 Welcome to Gopi Krishnan Nambiar's homepage!
 
 This page is currently under construction, but feel free to browse through.. Most of it already works :=)
-<a href:"mailto:gopikrishnan.nambiar@gmail.com">Drop me a note</a> if you find something interesting here. Contact details below..
+<a href="mailto:gopikrishnan.nambiar@gmail.com">Drop me a note</a> if you find something interesting here. Contact details below..
 
 ## Posts
 
