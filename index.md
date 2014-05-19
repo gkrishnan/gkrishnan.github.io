@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Hello World!
-categories: [Firstpost]
+categories: ['helloworld']
+tags: ['firstpost']
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Welcome 
-to Gopi Krishnan Nambiar's homepage!
+Welcome to Gopi Krishnan Nambiar's homepage!
+
 This page is currently under construction, but feel free to browse through.. Most of it already works :=)
+Drop me a note if you find something interesting here. Contact details below..
 
 ## Posts
 
