@@ -483,7 +483,8 @@ p.delicious-extended:before { content: ' — '; }
 #social {
  	position: relative;
         text-align: center;
-        display: block;
+	font-variant: small-caps;
+	color: #77d;
 	font-size:100%
 }
 
