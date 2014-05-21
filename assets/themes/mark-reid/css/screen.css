@@ -481,7 +481,7 @@ p.delicious-extended:before { content: ' — '; }
 	right: 0;
 }
 #social {
- 	position: absolute;
+ 	position: relative;
         text-align: center;
         display: block;
 	font-size:100%
