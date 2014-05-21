@@ -480,11 +480,11 @@ p.delicious-extended:before { content: ' — '; }
 	display: block;
 	right: 0;
 }
-#footer .social {
-        position: relative;
-        margin: .5em 0 0 0;
+#social {
+ 	position: absolute;
         text-align: center;
-	font-size: 100%;
+        display: block;
+	font-size:100%
 }
 
 /* @end */
