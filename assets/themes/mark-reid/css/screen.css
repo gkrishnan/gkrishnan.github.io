@@ -488,6 +488,12 @@ p.delicious-extended:before { content: ' — '; }
 	font-size:100%
 }
 
+#social a {
+font-variant: small-caps;
+font-style: normal;
+color: #77d;
+text-decoration: none;
+}
 /* @end */
 
 
