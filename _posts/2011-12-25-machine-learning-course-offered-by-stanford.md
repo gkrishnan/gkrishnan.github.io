@@ -14,5 +14,5 @@ This course is being offered again in Jan’s and recommend al of those interest
 Hats off to the ml-class team and I am already planning to attend the algo-class offered in Jan, thanks to the amount I have learned with ml-class!
 
 Here is a brief intro to the class in Prof Andrew’s own words:
-<iframe width="480" height="360" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"> </iframe>
+&lt;iframe width="480" height="360" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"&gt; &lt;/iframe&gt;
 {% include JB/setup %}
