@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Stanford University's Online Machine Learning Course"
-description: "ML course"
+title: "Ramen Profitable"
+description: "Ramen Profitable Hackernews article"
 category: [tech]
 tags: [pg,startups,yc]
 ---
