@@ -15,6 +15,6 @@ Our presentation was slated for July 17 evening session, and it went off like a 
 
 There were a lot of questions regarding our future work, including whether this service would become available entirely over voice, hence eliminating the end user to even type out a single letter of text and make the service even more accessible. People were also interested to know about our business model and how we plan to take this to the next level.
 
-You can [download the research paper]({{ site.url }}/assets/ICDM.pdf) 
+You can download the research paper [here]({{ site.url }}/assets/ICDM.pdf) 
 
 {% include JB/setup %}
