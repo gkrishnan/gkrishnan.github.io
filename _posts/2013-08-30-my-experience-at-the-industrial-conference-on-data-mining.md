@@ -14,4 +14,7 @@ The conference session was declared open by [Prof Petra Perner](http://academic.
 Our presentation was slated for July 17 evening session, and it went off like a charm. The talk was very well received and there were lot of questions regarding the scale of the algorithms, since this was live for today’s txtWeb user base, which is easily more than 11 million! Lots of researchers were impressed with our vision to “Enable anyone with any mobile phone to create, discover and consume bite-sized services through a single global publishing platform”
 
 There were a lot of questions regarding our future work, including whether this service would become available entirely over voice, hence eliminating the end user to even type out a single letter of text and make the service even more accessible. People were also interested to know about our business model and how we plan to take this to the next level.
+
+You can [download the research paper]({{ site.url }}/assets/ICDM.pdf) 
+
 {% include JB/setup %}
