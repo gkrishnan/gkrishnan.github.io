@@ -15,7 +15,8 @@ Our presentation was slated for July 17 evening session, and it went off like a 
 
 There were a lot of questions regarding our future work, including whether this service would become available entirely over voice, hence eliminating the end user to even type out a single letter of text and make the service even more accessible. People were also interested to know about our business model and how we plan to take this to the next level.
 
-<iframe width="625" height="382" src="http://www.gkrishnan.com/assets/ICDM.pdf" frameborder="2" allowfullscreen="1"> </iframe>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/35306223" width="479" height="511" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/gkrishnan304/recommending-relevant-applicationsforusersofsmsbasedplatforms" title="Recommending relevant applications_for_users_of_sms_based_platforms" target="_blank">Recommending relevant applications_for_users_of_sms_based_platforms</a> </strong> from <strong><a href="http://www.slideshare.net/gkrishnan304" target="_blank">Gopi Krishnan Nambiar</a></strong> </div>
+<!--<iframe width="625" height="382" src="http://www.gkrishnan.com/assets/ICDM.pdf" frameborder="2" allowfullscreen="1"> </iframe>-->
 
 You can also download the research paper [here]({{ site.url }}/assets/ICDM.pdf) 
 
