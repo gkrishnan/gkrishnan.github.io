@@ -1,16 +1,13 @@
 ---
 layout: page
-title: Hello World!
+title: Hello!
 categories: ['helloworld']
 tags: ['firstpost']
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Welcome to Gopi Krishnan Nambiar's homepage!
-
-This page is currently under construction, but feel free to browse through.. Most of it already works :=)
-<a href="mailto:gopikrishnan.nambiar@gmail.com">Drop me a note</a> if you find something interesting here. Contact details below..
+Hi,I'm Gopi Krishnan. I am a first year Masters in Computer Science student at Georgia Institute of Technology. Prior to joining Georgia Tech, I worked on the txtWeb Platform as a Senior Software Engineer. My interests are Machine Learning and programming. Feel free to drop me a note anytime at gnambiar3[at]gatech[dot]edu
 
 ## Posts
 
