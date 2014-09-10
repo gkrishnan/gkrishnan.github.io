@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Hello!
+title: 
 categories: ['helloworld']
 tags: ['firstpost']
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Hi,I'm Gopi Krishnan. 
+Hi!
 
-I am a first year Masters in Computer Science student at Georgia Institute of Technology. Prior to joining Georgia Tech, I worked on the txtWeb Platform as a Senior Software Engineer. My interests are Machine Learning and programming. Feel free to drop me a note anytime at gnambiar3[at]gatech[dot]edu
+I'm Gopi Krishnan, a first year Masters in Computer Science student at Georgia Institute of Technology. Prior to joining Georgia Tech, I worked on the txtWeb Platform as a Senior Software Engineer. My interests are Machine Learning and programming. Feel free to drop me a note anytime at gnambiar3[at]gatech[dot]edu
 
 ## Posts
 
