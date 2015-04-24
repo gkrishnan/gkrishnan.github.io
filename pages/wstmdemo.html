@@ -1,15 +1,9 @@
 
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Song Networks: Interative Network Tutorial</title>
 <meta name="description" content="Demo for How to Build an Interactive Network Visualization.">
-<meta name="author" content="Jim Vallandingham">
 <meta name="viewport" content="width=device-width,initial-scale=1">
  
 <link rel="stylesheet" href="css/reset.css">
@@ -22,7 +16,6 @@
 <div id="container" class="container">
 <header>
 <h1>Similar Song Networks</h1>
-<p>Songs similar to one another according to <a href="http://www.last.fm/api">last.fm</a> are linked together. Song nodes are sized based on playcounts, and colored by artist.</p>
 </header>
 <div id="song_selection" class="control">
 <h3>Song</h3>
@@ -61,9 +54,6 @@
 <div id="main" role="main">
 <div id="vis"></div>
 </div>
-<footer>
-<p>Data from <a href="http://www.last.fm/api/show/track.getSimilar">last.fm</a>. Some songs include additional links for effect.<br/>Popular songs are defined as those with playcounts above the median for all songs in network.</p>
-</footer>
 </div>  
  
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
@@ -73,15 +63,5 @@
 <script src="js/libs/d3.v2.js"></script>
 <script src="js/Tooltip.js"></script>
 <script type="text/coffeescript" src="coffee/vis.coffee"></script>
-<script> // Change UA-XXXXX-X to be your site's ID
-    window._gaq = [['_setAccount','UA-865100-4'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
-<!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
 </body>
 </html>
