@@ -18,3 +18,15 @@ In contrast to the above implementation of two staged implementation of Hadoop, 
 
 
 Spark is mainly implemented in Scala, a statically typed high level programming language. It runs on Java’s JVM and is essentially a functional programming interface. It also has wrappers that allow developers to write programs in Java and Python as well. Each language has its own API exposed (i.e. Spark Java API for Java version and PySpark for the Python version) and these have their own differences and slight nuances when compared to the Scala API.
+
+
+
+<b>Programming Model</b>
+In order to use Spark, the developers need to write a driver program that implements
+high level control flow of their application and launches parallel operations.
+The major programming abstractions in case of Spark are:
+<ul>
+<li>Resilient Distributed Datasets (RDD)</li>
+<li>Parallel Operations</li>
+<li>Shared variables</li>
+</ul>
