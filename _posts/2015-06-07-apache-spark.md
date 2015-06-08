@@ -382,3 +382,24 @@ system to mitigate this issue. But, in spite of a fast broadcast, resending R on
 each iteration is costly. Caching R in memory on the workers using a broadcast
 variable improved performance by 2.8x in an experiment with 5000 movies and
 15000 users on a 30-node EC2 cluster.
+
+
+
+References
+=============
+
+<ol>
+<li>Zaharia, Matei, et al. ”Spark: Cluster computing with working sets.” Proceedings
+of the 2nd USENIX conference on Hot topics in cloud computing.
+2010.</li>
+<li>Karau, Holden. Fast Data Processing With Spark. Packt Publishing Ltd,
+2013.</li>
+<li>Gonzalez, Joseph E., et al. ”Graphx: Graph processing in a distributed
+dataflow framework.” Proceedings of the 11th USENIX Symposium on
+Operating Systems Design and Implementation (OSDI). 2014.</li>
+<li>Zaharia, Matei, et al. ”Resilient distributed datasets: A fault-tolerant
+abstraction for in-memory cluster computing.” Proceedings of the 9th
+USENIX conference on Networked Systems Design and Implementation.
+USENIX Association, 2012.</li>
+<li>Spark official documentation page: https://spark.apache.org/documentation.html</li>
+</ol>
