@@ -2,7 +2,7 @@
 layout: post
 title: "Technology Review : Apache Spark"
 description: "Tech review for CS 6675"
-category: [georgia tech]
+category: [bigdata]
 tags: [big data, spark, recommendations]
 ---  
 
