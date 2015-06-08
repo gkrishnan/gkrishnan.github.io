@@ -144,12 +144,16 @@ movie has a k-dimensional “feature vector” describing its characteristics, a
 user’s rating for a movie is the dot product of its feature vector and the movie’s.
 ALS solves for M and U using the known ratings and then computes M ∗ U to
 predict the unknown ones. This is done using the following iterative process:
+
+
 <ol>
 <li>Initialize M to a random value.</li>
 <li>Optimize U given M to minimize error on R.</li>
 <li>Optimize M given U to minimize error on R.</li>
 <li>Repeat steps 2 and 3 until convergence.</li>
 </ol>
+
+
 ALS can be parallelized by updating different users or movies on each node in
 steps 2 and 3. However, because all of the steps use R, it is helpful to make R
 a broadcast variable so that it does not get resent to each node on every step.
