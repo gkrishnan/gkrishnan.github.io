@@ -71,3 +71,48 @@ reused.</li>
 filesystem such as HDFS. The saved version is used in future operations
 on it.</li></ul>
 </li></ol>
+
+
+#####Parallel Operations
+
+
+<ul>
+Many parallel operations can be performed on RDDs, including:
+<li> Reduce: Combines the dataset elements using an associative function to
+produce a result at the driver program.</li>
+<li> Collect: Send all elements of the dataset to the driver program. For
+instance, an easy way to update an array in parallel is to parallelize, map
+and collect the array.</li>
+<li> Foreach : Passes each element through a user provided function. This is
+only done for the side effects of the function, which may be copying data
+to another system or to update a shared variable.</li>
+</ul>
+
+#####Shared Variables
+
+
+It is a common scenario that programmers use operation such as map, filter
+and reduce by passing functions to Spark. These functions usually refer to the
+variables in scope where they have been created. In order to avoid incessant
+copies of the variables and related hassles, Spark allows programmers to create
+two restricted types of shared variables, namely broadcast variables and
+accumulators.
+
+######Broadcast Variables
+
+
+If a large read-only piece of data is used in multiple parallel operations, it is
+preferable to distribute it to the workers only once instead of packaging it with
+every closure. Spark lets the programmer create a “broadcast variable” object
+that wraps the value and ensures that it is only copied to each worker once.
+
+
+######Accumulators
+
+
+These are variables that workers can only “add” to using an associative operation
+and that only the driver can read. They can be used to implement
+counters as in MapReduce and to provide a more imperative syntax for parallel
+sums. Accumulators can be defined for any type that has an “add” operation
+and a “zero” value. Due to their “add-only” semantics, they are easy to make
+fault-tolerant
