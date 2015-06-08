@@ -8,6 +8,7 @@ tags: [big data, spark, recommendations]
 
 ###Introduction
 
+
 [Spark](http://spark.apache.org/) is a fast and general purpose engine built for large scale data processing. It was conceived and built at the AMPLab at University of California, Berkeley in 2009 by Matei Zaharia. Later in 2010, it was open sourced under a BSD license after which it was donated to the Apache Software Foundation in 2013. In 2014, Spark became an Apache Top Level Project. Spark is a new paradigm shift in big data and cluster computing in comparison to Hadoop.     
 
 
@@ -22,6 +23,7 @@ Spark is mainly implemented in Scala, a statically typed high level programming 
 
 
 ###Programming Model###
+
 
 
 In order to use Spark, the developers need to write a driver program that implements
