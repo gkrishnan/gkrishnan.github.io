@@ -6,7 +6,7 @@ category: [georgia tech]
 tags: [big data, spark, recommendations]
 ---  
 
-##Introduction
+#####Introduction
 
 
 [Spark](http://spark.apache.org/) is a fast and general purpose engine built for large scale data processing. It was conceived and built at the AMPLab at University of California, Berkeley in 2009 by Matei Zaharia. Later in 2010, it was open sourced under a BSD license after which it was donated to the Apache Software Foundation in 2013. In 2014, Spark became an Apache Top Level Project. Spark is a new paradigm shift in big data and cluster computing in comparison to Hadoop.     
@@ -22,7 +22,7 @@ Spark is mainly implemented in Scala, a statically typed high level programming 
 
 
 
-##Programming Model
+#####Programming Model
 
 
 
@@ -35,7 +35,7 @@ The major programming abstractions in case of Spark are:
 <li>Shared variables</li>
 </ul>
 
-###Resilient Distributed Datasets (RDD)
+####Resilient Distributed Datasets (RDD)
 An RDD is a read-only collection of objects. These objects are partitioned
 across a set of machines and hence these can be rebuilt in the event a partition
 is lost. The elements of the RDDs need not exist in physical storage. It is
@@ -73,7 +73,7 @@ on it.</li></ul>
 </li></ol>
 
 
-###Parallel Operations
+####Parallel Operations
 
 
 <ul>
@@ -88,7 +88,7 @@ only done for the side effects of the function, which may be copying data
 to another system or to update a shared variable.</li>
 </ul>
 
-###Shared Variables
+####Shared Variables
 
 
 It is a common scenario that programmers use operation such as map, filter
@@ -98,7 +98,7 @@ copies of the variables and related hassles, Spark allows programmers to create
 two restricted types of shared variables, namely broadcast variables and
 accumulators.
 
-####Broadcast Variables
+###Broadcast Variables
 
 
 If a large read-only piece of data is used in multiple parallel operations, it is
@@ -107,7 +107,7 @@ every closure. Spark lets the programmer create a “broadcast variable” objec
 that wraps the value and ensures that it is only copied to each worker once.
 
 
-####Accumulators
+###Accumulators
 
 
 These are variables that workers can only “add” to using an associative operation
