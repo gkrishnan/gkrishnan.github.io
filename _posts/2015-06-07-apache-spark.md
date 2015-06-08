@@ -198,7 +198,7 @@ after analysis.
 
 
 
-![Spark on AWS](/assets/AWS_spark.png=100x)
+![Spark on AWS](/assets/AWS_spark.png =100x)
 
 
 Example Applications using Spark:
