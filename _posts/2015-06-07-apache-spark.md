@@ -36,7 +36,7 @@ The major programming abstractions in case of Spark are:
 </ul>
 
 ####Resilient Distributed Datasets (RDD)
-<br/><br/>
+<br/>
 
 An RDD is a read-only collection of objects. These objects are partitioned
 across a set of machines and hence these can be rebuilt in the event a partition
@@ -91,7 +91,7 @@ to another system or to update a shared variable.</li>
 </ul>
 
 ####Shared Variables
-<br/><br/>
+<br/>
 It is a common scenario that programmers use operation such as map, filter
 and reduce by passing functions to Spark. These functions usually refer to the
 variables in scope where they have been created. In order to avoid incessant
@@ -130,14 +130,15 @@ Spark on Amazon Web Services
 ============
 
 
-Example Applications using Spark
+Example Applications using Spark:
 ============
 
 
 
 
-####Alternating Least Squares
-<br/><br/>
+Alternating Least Squares
+------------
+<br/>
 A good example top demonstrate the usability of Spark is alternating least
 squares (ALS) algorithm. ALS is used for collaborative filtering problems, such
 as predicting users’ ratings for movies that they have not seen based on their
