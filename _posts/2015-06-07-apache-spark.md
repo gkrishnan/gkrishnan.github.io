@@ -265,6 +265,35 @@ between collaborators as shown in Figure 3
 <img src="/assets/propertygraph.png" alt="Example Property Graph" style="width: 400px;"/>
 
 
+Spark Streaming
+----------
+
+Spark Streaming is an extension of the core Spark API that enables scalable,
+high-throughput, fault-tolerant stream processing of live data streams. Data can
+be ingested from many sources like Kafka, Flume, Twitter, ZeroMQ, Kinesis or
+TCP sockets can be processed using complex algorithms expressed with highlevel
+functions like map, reduce, join and window. Finally, processed data can
+be pushed out to filesystems, databases, and live dashboards. Streaming can be
+used to implement Spark’s machine learning and graph processing algorithms
+on data streams. The architecture is as shown in Figure 4:
+
+
+<img src="/assets/streaming.png" alt="Spark Streaming" style="width: 400px;"/>
+
+
+Internally, it works as follows. Spark Streaming receives live input data
+streams and divides the data into batches, which are then processed by the
+Spark engine to generate the final stream of results in batches. Spark Streaming
+provides a high-level abstraction called discretized stream or DStream, which
+represents a continuous stream of data as shown in Figure 5 below. DStreams can be
+created either from input data streams from sources such as Kafka, Flume, and
+Kinesis, or by applying high-level operations on other DStreams. Internally, a
+DStream is represented as a sequence of RDDs.
+
+
+<img src="/assets/streamingflow.png" alt="Spark Streaming" style="width: 400px;"/>
+
+
 Spark on Amazon Web Services
 ============
 
