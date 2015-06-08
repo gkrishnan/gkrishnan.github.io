@@ -6,7 +6,7 @@ category: [georgia tech]
 tags: [big data, spark, recommendations]
 ---  
 
-<b>Introduction</b>
+###Introduction
 
 [Spark](http://spark.apache.org/) is a fast and general purpose engine built for large scale data processing. It was conceived and built at the AMPLab at University of California, Berkeley in 2009 by Matei Zaharia. Later in 2010, it was open sourced under a BSD license after which it was donated to the Apache Software Foundation in 2013. In 2014, Spark became an Apache Top Level Project. Spark is a new paradigm shift in big data and cluster computing in comparison to Hadoop.     
 
@@ -21,7 +21,7 @@ Spark is mainly implemented in Scala, a statically typed high level programming 
 
 
 
-<b>Programming Model</b>
+###Programming Model###
 
 
 In order to use Spark, the developers need to write a driver program that implements
@@ -33,7 +33,7 @@ The major programming abstractions in case of Spark are:
 <li>Shared variables</li>
 </ul>
 
-######Resilient Distributed Datasets (RDD)
+#####Resilient Distributed Datasets (RDD)
 An RDD is a read-only collection of objects. These objects are partitioned
 across a set of machines and hence these can be rebuilt in the event a partition
 is lost. The elements of the RDDs need not exist in physical storage. It is
