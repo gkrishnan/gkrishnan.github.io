@@ -123,7 +123,7 @@ fault-tolerant
  Building and Running Spark Applications
 ============
 Spark Shell
-------
+-------
 
 Spark Shell is a command line interface for running Spark commands. It is
 a very useful tool for rapid prototyping with Spark. The Spark Shell allows
