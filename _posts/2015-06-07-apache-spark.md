@@ -213,12 +213,19 @@ algorithms and utilities, including classification, regression, clustering, coll
 filtering, dimensionality reduction and underlying optimization primitives.
 Some of the prominent algorithms available in MLlib 1.1 are:
 <ul>
-<li>Linear SVM and logistic regression
-<li>Classification and regression tree
-<li>K-means clustering
-<li>
-<li>
-<li>
+<li>Linear SVM and logistic regression</li>
+<li>Classification and regression tree</li>
+<li>K-means clustering</li>
+<li>Recommendation via alternating least squares</li>
+<li>Singular Value Decomposition</li>
+<li>Linear regression with L1- and L2-regularization</li>
+<li>Multinomial naive Bayes</li>
+<li>Basic statistics</li>
+<li>Feature transformations</li>
+</ul>
+
+
+
 Spark on Amazon Web Services
 ============
 
