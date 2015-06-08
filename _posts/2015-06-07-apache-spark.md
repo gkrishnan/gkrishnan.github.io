@@ -197,7 +197,7 @@ the results from these queries can also be persisted back to Amazon S3 or HDFS
 after analysis.
 
 
-<img src="/assets/AWS_spark.png" alt="Spark on AWS" style="width: 800px;"/>
+<img src="/assets/AWS_spark.png" alt="Spark on AWS" style="width: 600px;"/>
 
 
 
