@@ -120,3 +120,49 @@ counters as in MapReduce and to provide a more imperative syntax for parallel
 sums. Accumulators can be defined for any type that has an “add” operation
 and a “zero” value. Due to their “add-only” semantics, they are easy to make
 fault-tolerant
+
+
+
+
+Example Applications using Spark
+============
+
+
+
+
+####Alternating Least Squares
+
+
+
+A good example top demonstrate the usability of Spark is alternating least
+squares (ALS) algorithm. ALS is used for collaborative filtering problems, such
+as predicting users’ ratings for movies that they have not seen based on their
+movie rating history. The ALS algorithm is known to be CPU-intensive.
+Suppose that we wanted to predict the ratings of u users for m movies, and
+that we had a partially filled matrix R containing the known ratings for some
+user-movie pairs. ALS models R as the product of two matrices M and U of
+dimensions m ∗ k and k ∗ u respectively. This means that each user and each
+movie has a k-dimensional “feature vector” describing its characteristics, and a
+user’s rating for a movie is the dot product of its feature vector and the movie’s.
+ALS solves for M and U using the known ratings and then computes M ∗ U to
+predict the unknown ones. This is done using the following iterative process:
+<ol>
+<li>Initialize M to a random value.</li>
+<li>Optimize U given M to minimize error on R.</li>
+<li>Optimize M given U to minimize error on R.</li>
+<li>Repeat steps 2 and 3 until convergence.</li>
+</ol>
+ALS can be parallelized by updating different users or movies on each node in
+steps 2 and 3. However, because all of the steps use R, it is helpful to make R
+a broadcast variable so that it does not get resent to each node on every step.
+
+
+It could be observed that without using broadcast variables, the time to resend
+the ratings matrix R on each iteration dominated the job’s running time.
+Furthermore, with a naive implementation of broadcast (using HDFS or NFS),
+the broadcast time grew linearly with the number of nodes, limiting the scalability
+of the job. This was implemented using an application-level multicast
+system to mitigate this issue. But, in spite of a fast broadcast, resending R on
+each iteration is costly. Caching R in memory on the workers using a broadcast
+variable improved performance by 2.8x in an experiment with 5000 movies and
+15000 users on a 30-node EC2 cluster.
