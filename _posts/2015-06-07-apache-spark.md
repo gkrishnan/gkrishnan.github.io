@@ -22,6 +22,8 @@ Spark is mainly implemented in Scala, a statically typed high level programming 
 
 
 <b>Programming Model</b>
+
+
 In order to use Spark, the developers need to write a driver program that implements
 high level control flow of their application and launches parallel operations.
 The major programming abstractions in case of Spark are:
@@ -30,3 +32,40 @@ The major programming abstractions in case of Spark are:
 <li>Parallel Operations</li>
 <li>Shared variables</li>
 </ul>
+
+###Resilient Distributed Datasets (RDD)
+An RDD is a read-only collection of objects. These objects are partitioned
+across a set of machines and hence these can be rebuilt in the event a partition
+is lost. The elements of the RDDs need not exist in physical storage. It is
+designed in such a way that a handle to an RDD contains enough information
+to compute the RDD starting from the data in reliable storage. In this manner,
+RDDs can always be reconstructed in case of any failures. In the Spark scenario,
+each RDD is represented as a Scala object. There are four ways to construct an
+RDD, which are described as follows:
+<ol>
+<li>Construction from a file: A new RDD can be constructed from an
+existing file in a shared file system (HDFS).</li>
+<li> Parallelizing a Scala collection: A new RDD can also be constructed
+by parallelizing a Scala collection in the driver program. This essentially
+means dividing a collection into multiple slices that would be sent to multiple
+nodes.</li>
+<li> Transforming an already existing RDD: This involves transformation
+of a dataset with elements of type A into a dataset with elements of type
+B. This can be achieved in many ways, one of which would be by using
+an operation called flatMap, which passes each element through a userprovided
+function of type A =⇒ List[B]. Other transformations like map
+and filter can be easily expressed using the flatMap operation.</li>
+<li> Changing the persistence of an existing RDD: RDDs are lazy and
+ephemeral by default behavior. The partitions of a dataset are materialized
+only on demand when they are used in a parallel operation, for
+instance passing a block of a file through a map function. These are discarded
+from memory after use. But, a user can alter the persistence of an
+RDD through two actions:
+<ul>
+<li> The cache action leaves the dataset lazy, but hints that it should be
+kept in memory after the first time it is computed, because it will be
+reused.</li>
+<li> The save action evaluates the dataset and writes it to a distributed
+filesystem such as HDFS. The saved version is used in future operations
+on it.</li></ul>
+</li></ol>
