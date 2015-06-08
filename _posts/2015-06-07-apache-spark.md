@@ -291,7 +291,7 @@ Kinesis, or by applying high-level operations on other DStreams. Internally, a
 DStream is represented as a sequence of RDDs.
 
 
-<img src="/assets/streamingflow.png" alt="Spark Streaming" style="width: 400px;"/>
+<img src="/assets/streamingflow.png" alt="Spark Streaming" style="width: 600px;"/>
 
 
 Spark on Amazon Web Services
