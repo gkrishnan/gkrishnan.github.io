@@ -33,7 +33,7 @@ The major programming abstractions in case of Spark are:
 <li>Shared variables</li>
 </ul>
 
-###Resilient Distributed Datasets (RDD)
+######Resilient Distributed Datasets (RDD)
 An RDD is a read-only collection of objects. These objects are partitioned
 across a set of machines and hence these can be rebuilt in the event a partition
 is lost. The elements of the RDDs need not exist in physical storage. It is
