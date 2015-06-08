@@ -159,7 +159,7 @@ Spark Modules
 ============
 
 
-<img src="/assets/stack.png" alt="Spark Stack" style="width: 400px;"/>
+<img src="/assets/stack.png" alt="Spark Stack" style="width: 600px;"/>
 
 
 There are many popular modules which work on top of Spark as shown in Figure
