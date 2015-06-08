@@ -159,6 +159,8 @@ Spark Modules
 ============
 
 
+<img src="/assets/stack.png" alt="Spark Stack" style="width: 400px;"/>
+
 Spark on Amazon Web Services
 ============
 
