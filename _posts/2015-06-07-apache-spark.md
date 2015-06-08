@@ -225,6 +225,45 @@ Some of the prominent algorithms available in MLlib 1.1 are:
 </ul>
 
 
+GraphX
+------------
+
+GraphX is a new component in Spark for graphs and graph-parallel computation.
+GraphX extends the Spark RDD by introducing a new Graph abstraction:
+a directed multigraph with properties attached to each vertex and edge. To support
+graph computation, GraphX exposes a set of fundamental operators like
+subgraph, joinVertices, and aggregateMessages as well as an optimized variant
+of the Pregel API. In addition, GraphX includes a growing collection of graph
+algorithms and builders to simplify graph analytics tasks.
+
+
+
+#####Property Graph
+
+
+The property graph is a directed multigraph with user defined objects attached
+to each vertex and edge. A directed multigraph is a directed graph with potentially
+multiple parallel edges sharing the same source and destination vertex.
+The ability to support parallel edges simplifies modeling scenarios where there
+can be multiple relationships (e.g., co-worker and friend) between the same vertices.
+Each vertex is keyed by a unique 64-bit long identifier (VertexID). GraphX
+does not impose any ordering constraints on the vertex identifiers. Similarly,
+edges have corresponding source and destination vertex identifiers.
+
+
+The property graph is parameterized over the vertex (VD) and edge (ED)
+types. These are the types of the objects associated with each vertex and edge
+respectively.
+
+
+#####Example Property Graph
+Suppose we want to construct a property graph consisting of the various collaborators
+on the GraphX project. The vertex property might contain the username
+and occupation. We could annotate edges with a string describing the relationships
+between collaborators as shown in Figure 3
+
+<img src="/assets/propertygraph.png" alt="Example Property Graph" style="width: 400px;"/>
+
 
 Spark on Amazon Web Services
 ============
