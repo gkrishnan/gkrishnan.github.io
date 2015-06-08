@@ -197,8 +197,9 @@ the results from these queries can also be persisted back to Amazon S3 or HDFS
 after analysis.
 
 
+<img src="/assets/AWS_spark.png" alt="Spark on AWS" style="width: 200px;"/>
 
-![Spark on AWS](/assets/AWS_spark.png =100x)
+
 
 
 Example Applications using Spark:
