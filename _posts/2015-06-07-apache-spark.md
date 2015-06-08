@@ -201,7 +201,7 @@ Spark SQL can use existing Hive metastores, Serializer Desearializer(SerDes)
 and user defined funcations (UDFs) as shown in Figure 2.
 
 
-<img src="/assets/sql_hive.png" alt="Spark Stack" style="width: 400px;"/>
+<img src="/assets/sql_hive.png" alt="Spark Stack" style="width: 600px;"/>
 
 
 MLlib
@@ -262,7 +262,7 @@ on the GraphX project. The vertex property might contain the username
 and occupation. We could annotate edges with a string describing the relationships
 between collaborators as shown in Figure 3
 
-<img src="/assets/propertygraph.png" alt="Example Property Graph" style="width: 400px;"/>
+<img src="/assets/propertygraph.png" alt="Example Property Graph" style="width: 600px;"/>
 
 
 Spark Streaming
@@ -278,7 +278,7 @@ used to implement Spark’s machine learning and graph processing algorithms
 on data streams. The architecture is as shown in Figure 4:
 
 
-<img src="/assets/streaming.png" alt="Spark Streaming" style="width: 400px;"/>
+<img src="/assets/streaming.png" alt="Spark Streaming" style="width: 600px;"/>
 
 
 Internally, it works as follows. Spark Streaming receives live input data
