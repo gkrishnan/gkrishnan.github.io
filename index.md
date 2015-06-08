@@ -9,7 +9,7 @@ tagline: Supporting tagline
 
 Hello!
 
-I'm Gopi Krishnan, a first year Masters in Computer Science student at Georgia Institute of Technology. Prior to joining Georgia Tech, I worked on the txtWeb Platform as a Senior Software Engineer. My interests are Machine Learning and programming. Feel free to drop me a note anytime at gnambiar3[at]gatech[dot]edu
+I'm Gopi Krishnan Nambiar, a first year Masters in Computer Science student at Georgia Institute of Technology. This summer, I am working at Salesforce as a Software Development Intern. Prior to joining Georgia Tech, I worked on the txtWeb Platform at Intuit as a Senior Software Engineer. My interests are Machine Learning, Big Data and Programming. Feel free to drop me a note at gnambiar3[at]gatech[dot]edu. 
 
 ## Posts
 
