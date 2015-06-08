@@ -131,9 +131,7 @@ Example Applications using Spark
 
 
 ####Alternating Least Squares
-
-
-
+<p>
 A good example top demonstrate the usability of Spark is alternating least
 squares (ALS) algorithm. ALS is used for collaborative filtering problems, such
 as predicting users’ ratings for movies that they have not seen based on their
@@ -166,3 +164,4 @@ system to mitigate this issue. But, in spite of a fast broadcast, resending R on
 each iteration is costly. Caching R in memory on the workers using a broadcast
 variable improved performance by 2.8x in an experiment with 5000 movies and
 15000 users on a 30-node EC2 cluster.
+</p>
