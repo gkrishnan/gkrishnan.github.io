@@ -64,7 +64,7 @@ ephemeral by default behavior. The partitions of a dataset are materialized
 only on demand when they are used in a parallel operation, for
 instance passing a block of a file through a map function. These are discarded
 from memory after use. But, a user can alter the persistence of an
-RDD through two actions:
+RDD through two actions:</li></ol>
 <ul>
 <li> The cache action leaves the dataset lazy, but hints that it should be
 kept in memory after the first time it is computed, because it will be
@@ -72,7 +72,7 @@ reused.</li>
 <li> The save action evaluates the dataset and writes it to a distributed
 filesystem such as HDFS. The saved version is used in future operations
 on it.</li></ul>
-</li></ol>
+
 
 
 Parallel Operations
