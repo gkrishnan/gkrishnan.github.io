@@ -190,11 +190,15 @@ a change to the number of nodes in a cluster as Spark’s resource requirements
 change.
 
 
-The Figure 6 illustrates running Spark on a Hadoop cluster managed by Amazon EMR. When a cluster is launched, Amazon EMR provisions virtual server instances from Amazon EC2. These can be used as an Amazon EMR bootstrap
+Figure 6 below illustrates running Spark on a Hadoop cluster managed by Amazon EMR. When a cluster is launched, Amazon EMR provisions virtual server instances from Amazon EC2. These can be used as an Amazon EMR bootstrap
 action to install Spark on the cluster. Spark on Amazon EMR can process data
 from an Amazon S3 (Simple Storage Service) bucket or stored in HDFS, and
 the results from these queries can also be persisted back to Amazon S3 or HDFS
 after analysis.
+
+
+
+![Alt text](/assets/AWS_spark.jpg)
 
 
 Example Applications using Spark:
