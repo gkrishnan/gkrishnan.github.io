@@ -2,7 +2,7 @@
 Portfolio Website for Gopi Krishnan Nambiar. All the data is personal.
 
 ### Link
-Under construction. For now it's http://gkrishnan.github.io
+http://www.gkrishnan.com
 
 ### Contributing
 Please help with any suggestions or changes you think would improve the website.
