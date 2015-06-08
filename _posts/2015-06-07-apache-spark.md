@@ -122,6 +122,8 @@ fault-tolerant
 
  Building and Running Spark Applications
 ============
+
+
 Spark Shell
 -------
 
