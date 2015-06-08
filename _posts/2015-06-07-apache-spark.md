@@ -198,7 +198,7 @@ after analysis.
 
 
 
-![Alt text](/assets/AWS_spark.jpg)
+![Spark on AWS](/assets/AWS_spark.png)
 
 
 Example Applications using Spark:
