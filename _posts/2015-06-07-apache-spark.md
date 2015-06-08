@@ -172,6 +172,60 @@ There are many popular modules which work on top of Spark as shown in Figure
 </ul>
 
 
+
+Spark SQL
+---------
+
+
+Spark SQL is a Spark module for structured data processing. It provides a
+programming abstraction called DataFrames and can also act as distributed
+SQL query engine.
+
+
+#####DataFrames
+A DataFrame is a distributed collection of data organized into named columns.
+It is conceptually equivalent to a table in a relational database or a data frame
+in R/Python, but with richer optimizations under the hood. DataFrames can
+be constructed from a wide array of sources such as: structured data files, tables
+in Hive, external databases, or existing RDDs.The DataFrame API is available
+in Scala, Java, and Python.
+
+
+Spark SQL lets developers query structured data as a distributed dataset (RDD)
+in Spark, with integrated APIs in Python, Scala and Java. This tight integration
+makes it easy to run SQL queries alongside complex analytic algorithms.
+SparkSQL allows unified data access, which means that it can accept data from
+multiple sources seamlessly. SparkSQL is compatible with Hive, which means
+that Hive queries can be run on existing warehouses without any modification.
+Spark SQL can use existing Hive metastores, Serializer Desearializer(SerDes)
+and user defined funcations (UDFs) as shown in Figure 2.
+
+
+<img src="/assets/sql_hive.png" alt="Spark Stack" style="width: 400px;"/>
+
+
+MLlib
+--------
+
+
+MLlib is Spark’s scalable machine learning library consisting of common learning
+algorithms and utilities, including classification, regression, clustering, collaborative
+filtering, dimensionality reduction and underlying optimization primitives.
+Some of the prominent algorithms available in MLlib 1.1 are:
+<ul>
+<li>Linear SVM and logistic regression</li>
+<li>Classification and regression tree</li>
+<li>K-means clustering</li>
+<li>Recommendation via alternating least squares</li>
+<li>Singular Value Decomposition</li>
+<li>Linear regression with L1- and L2-regularization</li>
+<li>Multinomial naive Bayes</li>
+<li>Basic statistics</li>
+<li>Feature transformations</li>
+</ul>
+
+
+
 Spark on Amazon Web Services
 ============
 
