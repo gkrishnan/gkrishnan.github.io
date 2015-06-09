@@ -50,6 +50,9 @@ We need a specific directory structure in place for the application to work corr
 
 `./src/main/scala/TestApp.scala`
 
-I will explain simple.sbt in the upcoming sections. Before that, let us look at the source code for [TestApp.scala](https://github.com/gkrishnan/TestApp/blob/master/src/main/scala/TestApp.scala). Consider that you have a log file that you want to inspect for lines that contain "error". The above script TestApp.scala will help us achieve just that and list the count of the total number of lines in the log file that contain the word error.
+I will explain simple.sbt in the upcoming sections. Before that, let us look at the source code for TestApp.scala here <https://github.com/gkrishnan/TestApp/blob/master/src/main/scala/TestApp.scala>. Consider that you have a log file that you want to inspect for lines that contain "error". The above script TestApp.scala will help us achieve just that and list the count of the total number of lines in the log file that contain the word error. The code has detailed comments as to what each line is doing. If anything is not clear, feel free to drop me a note.
+
+
+Next, we move on to simple.sbt. First, what is sbt? It stand for the Scala Build Tool which lives at <http://www.scala-sbt.org/>. This is a tool that helps us to build the project, package it and create a jar file that we submit to Spark using the spark-submit command. 
 
 
