@@ -167,7 +167,7 @@ Hello World in Spark
 ============
 
 
-I have written up a separate post about this here <http://www.gkrishnan.com/bigdata/2015/06/09/spark-hello-world/> 
+I have written up a separate post about how to set up a simple Hello World application in Spark which detects the total number of lines that contain the word 'error' in a logfile here: <http://www.gkrishnan.com/bigdata/2015/06/09/spark-hello-world/> 
 
 Spark Modules
 ============
