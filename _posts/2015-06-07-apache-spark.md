@@ -409,8 +409,8 @@ abstraction for in-memory cluster computing." Proceedings of the 9th
 USENIX conference on Networked Systems Design and Implementation.
 USENIX Association, 2012.</li>
 <li>Spark official documentation page: https://spark.apache.org/documentation.html</li>
-<li> Figure 1: <http://spark.apache.org/></li>
-<li> Figure 2: <http://spark.apache.org/sql/></li>
+<li> Figure 1: <http://spark.apache.org></li>
+<li> Figure 2: <http://spark.apache.org/sql></li>
 <li> Figure 3: [https://spark.apache.org/docs/latest/graphx-programming-guide.html](https://spark.apache.org/docs/latest/graphx-programming-guide.html)</li>
 <li> Figure 4: [https://spark.apache.org/docs/latest/streaming-programming-guide.html](https://spark.apache.org/docs/latest/streaming-programming-guide.html)</li>
 <li> Figure 5: [https://spark.apache.org/docs/latest/streaming-programming-guide.html](https://spark.apache.org/docs/latest/streaming-programming-guide.html)</li>
