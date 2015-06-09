@@ -11,12 +11,20 @@ First, you need to go to the [Spark Downloads page](http://spark.apache.org/down
 
 
 Next, unzip the file and move it to a convenient folder like `(/home/username/Programming)` or anything you are comfortable with
-Spark runs on both Windows and Unix perfectly well. The only requirement in either case is that you need to have Java installed and in your system path or set up the JAVA_HOME environment variable. I set up the JAVA_HOME environment variable. For doing this, you would need to open the file `~/.bash_profile` (create it if it does not exist) and add an entry as follows:
+Spark runs on both Windows and Unix perfectly well. The only requirement in either case is that you need to have Java installed and in your system path or set up the JAVA_HOME environment variable. I set up the JAVA_HOME environment variable on a Mac. For doing this (steps for a Mac machine), you would need to open the file `~/.bash_profile` (create it if it does not exist) and add an entry as follows:
 
 
 `export JAVA_HOME='/path/to/your/java/home'`
 
-Write to file and close the terminal. Re open the terminal and you are all set to run Spark now. Also important to note that Spark runs on Java versions 6 and above, Python 2.6 and above. You can check Scala compatibility on the Spark website as it varies with the Spark version you choose to install.
+
+Now, write to the file and close the terminal.
+
+
+In case of a Linux machine (tested this on Ubuntu), you could add environment variables by editing the `/etc/environment` file and add the same export JAVA_HOME line as above. After this run the command `source /etc/environment` to update the environment variables. That's it. You can check if the environment variables have been correctly set by typing `echo $JAVA_HOME`
+
+
+Also important to note that Spark runs on Java versions 6 and above, Python 2.6 and above. You can check Scala compatibility on the Spark website as it varies with the Spark version you choose to install.
+
 
 Now, before we start writing a standalone Spark application, you could choose to look at the example applications that are already provided as part of the Spark installation. Steps on how to run the example applications are provided for [Scala](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples), [Java](https://github.com/apache/spark/tree/master/examples/src/main/java/org/apache/spark/examples) and [Python](https://github.com/apache/spark/tree/master/examples/src/main/python). You can execute the following commands to run the example apps in Scala:
 
