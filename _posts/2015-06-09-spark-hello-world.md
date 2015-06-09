@@ -55,4 +55,5 @@ I will explain simple.sbt in the upcoming sections. Before that, let us look at 
 
 Next, we move on to simple.sbt. First, what is sbt? It stand for the Scala Build Tool which lives at <http://www.scala-sbt.org/>. This is a tool that helps us to build the project, package it and create a jar file that we submit to Spark using the spark-submit command. 
 
+SBT has detailed instructions on how to set it up on your machine at <http://www.scala-sbt.org/0.13/tutorial/Setup.html>. If you remember, we were using a specific directory structure. This was needed due to sbt, since if the source files are not in the correct locations or directories they would be ignored and your application would not run as expected. In this tutorial, we would be focusing on a basic sbt file - simple.sbt and we don't have too many dependencies that would arise while using MLLib or other Spark modules, as I plan to cover these advanced topics later.
 
