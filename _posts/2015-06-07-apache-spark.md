@@ -14,9 +14,9 @@ Introduction
 
 Hadoop architecture is mainly based on the two step MapReduce paradigm, which involves the splitting of files into large chunks of either 64 MB or 128 MB. These chunks are then distributed among nodes in the cluster. The Hadoop infrastructure takes advantage of data locality as well. The Hadoop framework is mainly written in the Java language and excepts the programmer to be aware of this programming paradigm for implementation of the MapReduce programs. The foundational model of MapReduce is based mainly on a distributed file system. The map task basically involves loading of the data and defining a set of keys for the same, whereas the reduce task involves collecting the organized key based data to process and produce output in the required format. The performance of Hadoop MapReduce program can be tweaked heavily based on the details of source files like the number of nodes, their sizes and other parameters. The above was a very high level overview of Hadoop MapReduce, but if you wanted to do a deep dive into Hadoop/MapReduce, here are a few links that I found useful :
 <ul>
-<li><a href="http://stevekrenzel.com/finding-friends-with-mapreduce"></a> : This blog talks about the application of MapReduce to determine mutual friends on Facebook.</li>
-<li><a href="http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation"</a> : This StackOverflow link is a good resource for example applications of MapReduce</li>
-<li><a href="http://research.google.com/archive/mapreduce.html"></a> : This is a link to the seminal MapReduce Paper written by Jeffrey Dean and Sanjay Ghemawat</li>
+<li>[This]("http://stevekrenzel.com/finding-friends-with-mapreduce") blog talks about the application of MapReduce to determine mutual friends on Facebook.</li>
+<li>[This StackOverFlow link]("http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation") is a good resource for example applications of MapReduce</li>
+<li>[This]("http://research.google.com/archive/mapreduce.html")is a link to the seminal MapReduce Paper written by Jeffrey Dean and Sanjay Ghemawat</li>
 </ul>
 
 
