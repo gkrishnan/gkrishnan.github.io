@@ -217,19 +217,7 @@ MLlib
 
 MLlib is Spark’s scalable machine learning library consisting of common learning
 algorithms and utilities, including classification, regression, clustering, collaborative
-filtering, dimensionality reduction and underlying optimization primitives.
-Some of the prominent algorithms available in MLlib 1.1 are:
-<ul>
-<li>Linear SVM and logistic regression</li>
-<li>Classification and regression tree</li>
-<li>K-means clustering</li>
-<li>Recommendation via alternating least squares</li>
-<li>Singular Value Decomposition</li>
-<li>Linear regression with L1- and L2-regularization</li>
-<li>Multinomial naive Bayes</li>
-<li>Basic statistics</li>
-<li>Feature transformations</li>
-</ul>
+filtering, dimensionality reduction and underlying optimization primitives. The main idea behind MLLib according to this [AMPCamp talk](https://www.youtube.com/watch?v=y-LFsYg20PU) was to make popular Machine Learning algorithms available for everyone to use in an easy manner. Spark was originally developed at the [AMP Camp](https://amplab.cs.berkeley.edu/) at UC Berkeley.
 
 
 GraphX
