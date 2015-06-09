@@ -36,10 +36,16 @@ Now, before we start writing a standalone Spark application, you could choose to
 
 We need a specific directory structure in place for the application to work correctly. An example directory structure that you can refer to is as follows:
 
-`$ find .
-.
-./simple.sbt
-./src
-./src/main
-./src/main/scala
-./src/main/scala/TestApp.scala`
+`$ find .`
+
+`.`
+
+`./simple.sbt`
+
+`./src`
+
+`./src/main`
+
+`./src/main/scala`
+
+`./src/main/scala/TestApp.scala`
