@@ -18,7 +18,7 @@ Hadoop architecture is mainly based on the two step MapReduce paradigm, which in
 [http://stevekrenzel.com/finding-friends-with-mapreduce](http://stevekrenzel.com/finding-friends-with-mapreduce) : This blog talks about the application of MapReduce to determine mutual friends on Facebook
 
 
-[http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation"](http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation): This is a good resource for example applications of MapReduce
+[http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation](http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation): This is a good resource for example applications of MapReduce
 
 
 [http://research.google.com/archive/mapreduce.html](http://research.google.com/archive/mapreduce.html): This is a link to the seminal MapReduce Paper written by Jeffrey Dean and Sanjay Ghemawat
