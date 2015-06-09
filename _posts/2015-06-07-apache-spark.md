@@ -160,7 +160,12 @@ into a single JAR file. If the dependencies are not transient, the developer can
 opt to skip using the plugin and instead could choose to run sbt/sbt assembly
 task in the Spark project and then add the resulting JAR file core/target/sparkcore-assembly-0.X.0.jar
 to the classpath. The sbt-assembly package is a great
-tool to avoid having to manually manage a large number of JAR files.
+tool to avoid having to manually manage a large number of JAR files. The next section *'Hello World in Spark'* makes use of the sbt to create a jar file that can then be submitted to spark for processing.
+
+
+Hello World in Spark
+============
+I have written up a separate post about this here: 
 
 Spark Modules
 ============
