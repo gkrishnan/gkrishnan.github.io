@@ -49,3 +49,5 @@ We need a specific directory structure in place for the application to work corr
 `./src/main/scala`
 
 `./src/main/scala/TestApp.scala`
+
+I will explain simple.sbt in the next few paragraphs. Before that, let us look at the source code for the TestApp.scala. Consider that you have a log file that you want to inspect.
