@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technology Review : Apache Spark"
+title: "Introduction to Apache Spark"
 description: "Tech review for CS 6675"
 category: [bigdata]
 tags: [big data, spark, recommendations]
