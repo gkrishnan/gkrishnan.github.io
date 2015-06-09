@@ -165,7 +165,7 @@ tool to avoid having to manually manage a large number of JAR files. The next se
 
 Hello World in Spark
 ============
-I have written up a separate post about this here </2015-06-09-spark-hello-world.md/> 
+I have written up a separate post about this here <http://www.gkrishnan.com/bigdata/2015/06/09/spark-hello-world/> 
 
 Spark Modules
 ============
