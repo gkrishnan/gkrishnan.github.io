@@ -13,11 +13,10 @@ Introduction
 
 
 Hadoop architecture is mainly based on the two step MapReduce paradigm, which involves the splitting of files into large chunks of either 64 MB or 128 MB. These chunks are then distributed among nodes in the cluster. The Hadoop infrastructure takes advantage of data locality as well. The Hadoop framework is mainly written in the Java language and excepts the programmer to be aware of this programming paradigm for implementation of the MapReduce programs. The foundational model of MapReduce is based mainly on a distributed file system. The map task basically involves loading of the data and defining a set of keys for the same, whereas the reduce task involves collecting the organized key based data to process and produce output in the required format. The performance of Hadoop MapReduce program can be tweaked heavily based on the details of source files like the number of nodes, their sizes and other parameters. The above was a very high level overview of Hadoop MapReduce, but if you wanted to do a deep dive into Hadoop/MapReduce, here are a few links that I found useful :
-<ul>
-<li>[This]("http://stevekrenzel.com/finding-friends-with-mapreduce") blog talks about the application of MapReduce to determine mutual friends on Facebook.</li>
-<li>[This StackOverFlow link]("http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation") is a good resource for example applications of MapReduce</li>
-<li>[This]("http://research.google.com/archive/mapreduce.html")is a link to the seminal MapReduce Paper written by Jeffrey Dean and Sanjay Ghemawat</li>
-</ul>
+<br/>
+[This]("http://stevekrenzel.com/finding-friends-with-mapreduce") blog talks about the application of MapReduce to determine mutual friends on Facebook.<br/>
+[This StackOverFlow link]("http://stackoverflow.com/questions/12375761/good-map-reduce-examples-for-explanation") is a good resource for example applications of MapReduce</<br/>
+[This]("http://research.google.com/archive/mapreduce.html")is a link to the seminal MapReduce Paper written by Jeffrey Dean and Sanjay Ghemawat
 
 
 Spark is mainly implemented in Scala, a statically typed high level programming language. It runs on Java’s JVM and is essentially a functional programming interface. It also has wrappers that allow developers to write programs in Java and Python as well. Each language has its own API exposed (i.e. Spark Java API for Java version and PySpark for the Python version) and these have their own differences and slight nuances when compared to the Scala API.
