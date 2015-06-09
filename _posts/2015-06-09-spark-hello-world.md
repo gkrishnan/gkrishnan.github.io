@@ -32,6 +32,14 @@ Now, before we start writing a standalone Spark application, you could choose to
 `./bin/run-example SparkPi`
 
 
-[SparkPi](https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/SparkPi.scala) is an interesting program that iteratively computes the value of Pi. A good explanation of what the program does is available at the [HortonWorks guide](http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.2.4/Apache_Spark_Quickstart_v224/content/run_spark_pi.html).
+[SparkPi](https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/SparkPi.scala) is an interesting program that iteratively computes the value of Pi. A good explanation of what the program does is available at <http://mathforum.org/library/drmath/view/51909.html>. 
 
+We need a specific directory structure in place for the application to work correctly. An example directory structure that you can refer to is as follows:
 
+`$ find .
+.
+./simple.sbt
+./src
+./src/main
+./src/main/scala
+./src/main/scala/TestApp.scala`
