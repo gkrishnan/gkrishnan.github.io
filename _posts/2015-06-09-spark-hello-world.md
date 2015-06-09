@@ -16,3 +16,6 @@ Spark runs on both Windows and Unix perfectly well. The only requirement in eith
 
 `export JAVA_HOME='/path/to/your/java/home'`
 
+Write to file and close the terminal. Re open the terminal and you are all set to run Spark now. Also important to note that Spark runs on Java versions 6 and above, Python 2.6 and above. You can check Scala compatibility on the Spark website as it varies with the Spark version you choose to install.
+
+Now, getting on with the program,
