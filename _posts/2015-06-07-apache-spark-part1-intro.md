@@ -152,7 +152,7 @@ counters as in MapReduce and to provide a more imperative syntax for parallel
 sums. Accumulators can be defined for any type that has an “add” operation
 and a “zero” value. Due to their “add-only” semantics, they are easy to make
 fault-tolerant. The accumulators are also displayed in the SparkUI, if created 
-with a name and hence, make iteasy for the developers to keep track of progress 
+with a name and hence, make it easy for the developers to keep track of progress 
 in their application.
 
 
