@@ -130,7 +130,7 @@ Finally, run spark-submit. This command is used to run Spark applications on a c
        
        
 *--class*:   Specifies the entrypoint to your app<br/>
-*--master*:  Specifies the master URL for your cluser. Not particularly relevant in this case since it is running locally<br/>
+*--master*:  Specifies the master URL for your cluser. In this case, Spark runs locally with 4 worker threads. Ideally you should set it to local[K], where K is the number of cores in your machine <br/>
 The last argument specifies the path to the jar file you generated using `sbt package`<br/>
 
 
