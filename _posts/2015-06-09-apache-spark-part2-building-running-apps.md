@@ -55,28 +55,7 @@ References
 =============
 
 <ol>
-<li>Zaharia, Matei, et al. "Spark: Cluster computing with working sets." Proceedings
-of the 2nd USENIX conference on Hot topics in cloud computing.
-2010.</li>
-<li>Karau, Holden. Fast Data Processing With Spark. Packt Publishing Ltd,
-2013.</li>
-<li>Gonzalez, Joseph E., et al. "Graphx: Graph processing in a distributed
-dataflow framework." Proceedings of the 11th USENIX Symposium on
-Operating Systems Design and Implementation (OSDI). 2014.</li>
-<li>Zaharia, Matei, et al. "Resilient distributed datasets: A fault-tolerant
-abstraction for in-memory cluster computing." Proceedings of the 9th
-USENIX conference on Networked Systems Design and Implementation.
-USENIX Association, 2012.</li>
 <li>Spark official documentation page: https://spark.apache.org/documentation.html</li>
 </ol>
 <br/>
 
-
-
-Figures:<br/>
-Figure 1: <http://spark.apache.org><br/>
-Figure 2: <http://spark.apache.org/sql><br/>
-Figure 3: <https://spark.apache.org/docs/latest/graphx-programming-guide.html><br/>
-Figure 4: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
-Figure 5: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
-Figure 6: <http://aws.amazon.com/articles/4926593393724923><br/>

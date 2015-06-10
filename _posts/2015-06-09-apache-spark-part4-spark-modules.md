@@ -131,3 +131,23 @@ DStream is represented as a sequence of RDDs.
 
 
 <img src="/assets/streamingflow.png" alt="Spark Streaming" style="width: 600px;"/>
+
+
+
+References
+============
+
+<ol>
+	<li>Gonzalez, Joseph E., et al. "Graphx: Graph processing in a distributed dataflow framework." Proceedings of the 11th USENIX Symposium on Operating Systems Design and Implementation (OSDI). 2014.</li>
+	<li>Spark official documentation page: https://spark.apache.org/documentation.html	</li>
+
+</ol>
+
+
+Figures:<br/>
+Figure 1: <http://spark.apache.org><br/>
+Figure 2: <http://spark.apache.org/sql><br/>
+Figure 3: <https://spark.apache.org/docs/latest/graphx-programming-guide.html><br/>
+Figure 4: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
+Figure 5: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
+Figure 6: <http://aws.amazon.com/articles/4926593393724923><br/>
