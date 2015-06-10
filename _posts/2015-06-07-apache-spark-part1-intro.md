@@ -9,6 +9,9 @@ tags: [big data, spark, recommendations]
 This post is the first among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
 
 
+Part 1 - Intro and Programming Model - This post
+
+
 [Part 2 - Building and running Spark applications](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part2-building-running-apps/)
 
 
