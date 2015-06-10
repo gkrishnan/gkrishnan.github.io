@@ -3,7 +3,7 @@ layout: post
 title: "Spark Hello World - Part 3"
 description: "Spark intro part 2"
 category: [bigdata]
-tags: [spark, hello world
+tags: [spark, hello world]
 ---
 
 
