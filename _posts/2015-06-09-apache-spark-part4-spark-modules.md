@@ -151,4 +151,3 @@ Figure 2: <http://spark.apache.org/sql><br/>
 Figure 3: <https://spark.apache.org/docs/latest/graphx-programming-guide.html><br/>
 Figure 4: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
 Figure 5: <https://spark.apache.org/docs/latest/streaming-programming-guide.html><br/>
-Figure 6: <http://aws.amazon.com/articles/4926593393724923><br/>

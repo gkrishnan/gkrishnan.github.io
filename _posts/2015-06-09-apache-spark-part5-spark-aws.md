@@ -95,3 +95,18 @@ system to mitigate this issue. But, in spite of a fast broadcast, resending R on
 each iteration is costly. Caching R in memory on the workers using a broadcast
 variable improved performance by 2.8x in an experiment with 5000 movies and
 15000 users on a 30-node EC2 cluster.
+
+
+
+References
+============
+
+<ol>
+	<li>Spark MLlib documentation: https://spark.apache.org/docs/0.9.0/mllib-guide.html</li>
+	<li>AWS documentation : http://aws.amazon.com/articles/4926593393724923</li>
+</ol>
+
+<br/>
+Figures:<br/>
+Figure 6: <http://aws.amazon.com/articles/4926593393724923><br/>
+
