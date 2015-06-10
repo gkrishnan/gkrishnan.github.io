@@ -60,6 +60,18 @@ SBT has detailed instructions on how to set it up on your machine at <http://www
 Let's look at the simple.sbt file located at <https://github.com/gkrishnan/TestApp/blob/master/simple.sbt>. This simple Scala Build Tool file has only a few parameters:
 
 
+```
+name := "Test Application"
+
+version := "1.0"
+
+scalaVersion := "2.10.4"
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.3.1"
+```
+
+
+
 *name*: Name of your application<br/>
 *version*: Version of the application<br/>
 *scalaVersion*: Version of Scala that your application is using<br/>
