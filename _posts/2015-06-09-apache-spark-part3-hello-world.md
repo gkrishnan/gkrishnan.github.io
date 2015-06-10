@@ -34,7 +34,7 @@ Now, before we start writing a standalone Spark application, you could choose to
 
 [SparkPi](https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/SparkPi.scala) is an interesting program that iteratively computes the value of Pi. A good explanation of what the program does is available at <http://mathforum.org/library/drmath/view/51909.html>. 
 
-We need a specific directory structure in place for the application to work correctly. An example directory structure that you can refer to is as follows:
+We need a specific directory structure in place for the application to work correctly. CD into your application folder (in my case it is `TestApp/`. This is the directory structure that you should have when you run a `find .` in your application folder:
 
 `$ find .`
 
@@ -102,3 +102,10 @@ Let's look at the [simple.sbt file](https://github.com/gkrishnan/TestApp/blob/ma
 *version*: Version of the application<br/>
 *scalaVersion*: Version of Scala that your application is using<br/>
 *libraryDependencies*: The libraries that you need to run your application. More relevant for complex examples that make use of Spark modules<br/>
+
+
+Now, we need to package our application and create a jar file. Now cd into the root of your application. For instance, if your application was called TestApp, then cd into TestApp/ and then run the following command:
+
+`$ sbt package`
+
+Once you run this command you will see a lot of INFO logs and then finally you will get a prompt as follows:
