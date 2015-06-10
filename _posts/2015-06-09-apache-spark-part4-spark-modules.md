@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Apache Spark - Part 3"
+title: "Introduction to Apache Spark - Part 4"
 description: "Intro to Spark"
 category: [bigdata]
 tags: [big data, spark, recommendations]
