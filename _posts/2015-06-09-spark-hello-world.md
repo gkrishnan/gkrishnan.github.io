@@ -69,11 +69,10 @@ I will explain simple.sbt in the upcoming sections. Before that, let us look at 
             // Create a Spark Context utilizing the conf that you just created
 	    
             val logData = sc.textFile(logFile, 2).cache() 
-            cache this, for faster execution
-
-	    val numErrors = logData.filter(line => line.contains("error")).count()
-	    //The above line filters on the basis of all the lines that contain the
-            //word error and gives the total count of such lines
+            //cache this, for faster execution
+            
+            val numErrors = logData.filter(line => line.contains("error")).count()
+            //Gets the number of lines that contain 'error'
 
 	    println("Lines with ERROR: %s".format(numErrors))
 	    //Prints the above information
