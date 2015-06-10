@@ -58,7 +58,7 @@ I will explain simple.sbt in the upcoming sections. Before that, let us look at 
 	import org.apache.spark.SparkConf
 	
 	object TestApp {
-  	  def main(args: Array[String]) {
+	  def main(args: Array[String]) {
 	    val logFile = "/Users/gnambiar/Programming/TestApp/logFile" //This should be a path pointing to a log file in your system 
 	    val conf = new SparkConf().setAppName("Test Application")  //Set the application name here and create a new Spark Configuration object
 	    val sc = new SparkContext(conf) // Create a Spark Context utilizing the conf that you just created
