@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to Apache Spark"
 description: "Intro to Spark"
 category: [bigdata]
-tags: [big data, spark, recommendations]
+tags: [big data, spark, intro, programming model]
 ---  
 
 This post is the first among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
