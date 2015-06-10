@@ -26,7 +26,7 @@ In case of a Linux machine (tested this on Ubuntu), you could add environment va
 Also important to note that Spark runs on Java versions 6 and above, Python 2.6 and above. You can check Scala compatibility on the Spark website as it varies with the Spark version you choose to install.
 
 
-Now, before we start writing a standalone Spark application, you could choose to look at the example applications that are already provided as part of the Spark installation. Steps on how to run the example applications are provided for [Scala](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples), [Java](https://github.com/apache/spark/tree/master/examples/src/main/java/org/apache/spark/examples) and [Python](https://github.com/apache/spark/tree/master/examples/src/main/python). You can execute the following commands to run the example apps in Scala:
+Now, before we start writing a standalone Spark application, you could choose to look at the example applications that are already provided as part of the Spark installation. Steps on how to run the example applications are provided for [Scala](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples), [Java](https://github.com/apache/spark/tree/master/examples/src/main/java/org/apache/spark/examples) and [Python](https://github.com/apache/spark/tree/master/examples/src/main/python). You can execute the following commands to run the example apps in Scala (from the directory where you unzipped Spark):
 
 
 `./bin/run-example SparkPi`
