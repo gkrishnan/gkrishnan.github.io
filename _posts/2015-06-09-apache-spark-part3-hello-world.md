@@ -118,4 +118,19 @@ Once you run this command you will see a lot of INFO logs as follows:
     [info] Packaging /Users/gnambiar/Programming/TestApp/target/scala-2.10/test-application_2.10-1.0.jar ...
     [info] Done packaging.
     [success] Total time: 33 s, completed Jun 10, 2015 11:29:40 AM
+    
+    
+Finally, run spark-submit. Please note that in the below script SPARK-HOME should point to where you installed/unzipped Spark:
+
+
+    $ SPARK-HOME/bin/spark-submit \
+       --class "TestApp" \
+       --master local[4] \
+       target/scala-2.10/simple-project_2.10-1.0.jar
+       
+If everything went right, congrats on running your first Spark application! You should see this as the output:
+
+
+`Lines with ERROR: 1`
+
 
