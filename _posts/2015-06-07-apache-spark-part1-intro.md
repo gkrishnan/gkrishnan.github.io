@@ -6,6 +6,16 @@ category: [bigdata]
 tags: [big data, spark, recommendations]
 ---  
 
+This post is the first among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
+
+
+Building and running Spark applications: <http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part2-building-running-apps/><br/>
+Coding up a Hello World application on Spark: <http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part3-hello-world/><br/>
+Spark Modules: <http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part4-spark-modules/><br/>
+Spark on AWS and Alternating Least Squares: <http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part5-spark-aws/><br/>
+
+
+
 Introduction
 ============
 
