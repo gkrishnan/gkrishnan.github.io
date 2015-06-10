@@ -137,9 +137,6 @@ of the 2nd USENIX conference on Hot topics in cloud computing.
 2010.</li>
 <li>Karau, Holden. Fast Data Processing With Spark. Packt Publishing Ltd,
 2013.</li>
-<li>Gonzalez, Joseph E., et al. "Graphx: Graph processing in a distributed
-dataflow framework." Proceedings of the 11th USENIX Symposium on
-Operating Systems Design and Implementation (OSDI). 2014.</li>
 <li>Zaharia, Matei, et al. "Resilient distributed datasets: A fault-tolerant
 abstraction for in-memory cluster computing." Proceedings of the 9th
 USENIX conference on Networked Systems Design and Implementation.
