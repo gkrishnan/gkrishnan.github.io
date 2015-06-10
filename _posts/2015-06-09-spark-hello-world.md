@@ -59,24 +59,23 @@ I will explain simple.sbt in the upcoming sections. Before that, let us look at 
 	
 	object TestApp {
 	  def main(args: Array[String]) {
-	    val logFile = "/Users/gnambiar/Programming/TestApp/logFile" 
-            //The above filepath should be a path pointing to a log file in your system
+		val logFile = "/Users/gnambiar/Programming/TestApp/logFile" 
+            	//The above filepath should be a path pointing to a log file in your system
                  
-	    val conf = new SparkConf().setAppName("Test Application")  
-            //Set the application name here and create a new Spark Configuration object
+	    	val conf = new SparkConf().setAppName("Test Application")  
+            	//Set the application name here and create a new Spark Configuration object
 	    
-            val sc = new SparkContext(conf) 
-            // Create a Spark Context utilizing the conf that you just created
+            	val sc = new SparkContext(conf) 
+            	// Create a Spark Context utilizing the conf that you just created
 	    
-            val logData = sc.textFile(logFile, 2).cache() 
-            //cache this, for faster execution
+		val logData = sc.textFile(logFile, 2).cache() 
+		//cache this, for faster execution
             
-            val numErrors = logData.filter(line => line.contains("error")).count()
-            //Gets the number of lines that contain 'error'
+		val numErrors = logData.filter(line => line.contains("error")).count()
+		//Gets the number of lines that contain 'error'
 
-	    println("Lines with ERROR: %s".format(numErrors))
-	    //Prints the above information
-
+		println("Lines with ERROR: %s".format(numErrors))
+		//Prints the above information
 	  }
 	}
 
