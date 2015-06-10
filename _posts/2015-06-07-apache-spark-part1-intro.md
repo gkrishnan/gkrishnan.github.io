@@ -135,7 +135,12 @@ accumulators.
 If a large read-only piece of data is used in multiple parallel operations, it is
 preferable to distribute it to the workers only once instead of packaging it with
 every closure. Spark lets the programmer create a “broadcast variable” object
-that wraps the value and ensures that it is only copied to each worker once.
+that wraps the value and ensures that it is only copied to each worker once. Broadcast variables 
+permit the programmer to create read only variable cached on a machine, rather than shipping copies
+of it to every machine with the tasks. Also, once a broadcast object is created, that should be used
+over the actual variable to ensure that the broadcast functionality is being correctly utilized. Another
+important item to be noted is that the broadcast object should not be modified, to ensure that all the 
+tasks get the correct values of the broadcast objects.
 
 
 #####Accumulators
@@ -146,7 +151,9 @@ and that only the driver can read. They can be used to implement
 counters as in MapReduce and to provide a more imperative syntax for parallel
 sums. Accumulators can be defined for any type that has an “add” operation
 and a “zero” value. Due to their “add-only” semantics, they are easy to make
-fault-tolerant
+fault-tolerant. The accumulators are also displayed in the SparkUI, if created 
+with a name and hence, make iteasy for the developers to keep track of progress 
+in their application.
 
 
 References
