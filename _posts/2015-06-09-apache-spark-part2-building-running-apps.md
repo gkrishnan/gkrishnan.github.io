@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to Apache Spark - Part 2"
 description: "Intro to Spark"
 category: [bigdata]
-tags: [big data, spark, recommendations]
+tags: [spark, shell, sbt]
 ---  
 
 
