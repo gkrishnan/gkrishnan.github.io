@@ -144,7 +144,7 @@ References
 </ol>
 
 
-
+<br/>
 Figures:<br/>
 Figure 1: <http://spark.apache.org><br/>
 Figure 2: <http://spark.apache.org/sql><br/>
