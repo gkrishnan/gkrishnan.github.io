@@ -52,6 +52,22 @@ We need a specific directory structure in place for the application to work corr
 
 I will explain simple.sbt in the upcoming sections. Before that, let us look at the source code for TestApp.scala here <https://github.com/gkrishnan/TestApp/blob/master/src/main/scala/TestApp.scala>. Consider that you have a log file that you want to inspect for lines that contain "error". The above script TestApp.scala will help us achieve just that and list the count of the total number of lines in the log file that contain the word error. The code has detailed comments as to what each line is doing. If anything is not clear, feel free to drop me a note.
 
+	/* TestApp.scala */
+	import org.apache.spark.SparkContext
+	import org.apache.spark.SparkContext._
+	import org.apache.spark.SparkConf
+	
+	object TestApp {
+  	  def main(args: Array[String]) {
+	    val logFile = "/Users/gnambiar/Programming/TestApp/logFile" //This should be a path pointing to a log file in your system 
+	    val conf = new SparkConf().setAppName("Test Application")  //Set the application name here and create a new Spark Configuration object
+	    val sc = new SparkContext(conf) // Create a Spark Context utilizing the conf that you just created
+	    val logData = sc.textFile(logFile, 2).cache() //c
+	    val numErrors = logData.filter(line => line.contains("error")).count()
+	    println("Lines with ERROR: %s".format(numErrors))
+	  }
+	}
+
 
 Next, we move on to simple.sbt. First, what is sbt? It stand for the Scala Build Tool which lives at <http://www.scala-sbt.org/>. This is a tool that helps us to build the project, package it and create a jar file that we submit to Spark using the spark-submit command. 
 
