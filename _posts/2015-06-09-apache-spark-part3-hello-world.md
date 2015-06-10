@@ -120,7 +120,7 @@ Once you run this command you will see a lot of INFO logs as follows:
     [success] Total time: 33 s, completed Jun 10, 2015 11:29:40 AM
     
     
-Finally, run spark-submit. Please note that in the below script SPARK-HOME should point to where you installed/unzipped Spark:
+Finally, run spark-submit. This command is used to run Spark applications on a cluster. Please note that in the below script SPARK-HOME should point to where you installed/unzipped Spark:
 
 
     $ SPARK-HOME/bin/spark-submit \
@@ -128,9 +128,15 @@ Finally, run spark-submit. Please note that in the below script SPARK-HOME shoul
        --master local[4] \
        target/scala-2.10/simple-project_2.10-1.0.jar
        
+       
+*--class*:   Specifies the entrypoint to your app<br/>
+*--master*:  Specifies the master URL for your cluser. Not particularly relevant in this case since it is running locally<br/>
+The last argument specifies the path to the jar file you generated using `sbt package`<br/>
+
+
 If everything went right, congrats on running your first Spark application! You should see this as the output:
 
 
-`Lines with ERROR: 1`
+`Lines with ERROR: 1` for this sample [log file](https://github.com/gkrishnan/TestApp/blob/master/logFile)
 
 
