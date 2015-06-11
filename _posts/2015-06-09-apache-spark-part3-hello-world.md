@@ -7,6 +7,27 @@ tags: [spark, hello world]
 ---
 
 
+This post is the second among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
+
+
+[Part 1 - Intro and Programming Model](http://www.gkrishnan.com/bigdata/2015/06/07/apache-spark-part1-intro/) 
+
+
+[Part 2 - Building and running Spark applications](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part2-building-running-apps/)
+
+
+Part 3 - Coding up a Hello World application on Spark - This post
+
+
+[Part 4 - Spark Modules](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part4-spark-modules/)
+
+
+[Part 5 -Spark on AWS and Alternating Least Squares](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part5-spark-aws/)
+
+
+Hello World in Spark
+====================
+
 First, you need to go to the [Spark Downloads page](http://spark.apache.org/downloads.html) and then select the particular Spark release you want to install and the package type (you could choose to build it from source for various Hadoop versions or select a version pre built for a specific Hadoop version)
 
 
