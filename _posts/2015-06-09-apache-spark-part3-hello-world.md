@@ -7,7 +7,10 @@ tags: [spark, hello world]
 ---
 
 
-This post is the second among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
+Parts
+==============
+
+This post is the third among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
 
 
 [Part 1 - Intro and Programming Model](http://www.gkrishnan.com/bigdata/2015/06/07/apache-spark-part1-intro/) 
