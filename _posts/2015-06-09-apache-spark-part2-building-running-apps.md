@@ -9,10 +9,10 @@ tags: [spark, shell, sbt]
 This post is the second among a multi part series about an introduction to spark and how to build, run a Spark Hello World Application. Here is an index of the posts:
 
 
-Part 1 - Intro and Programming Model - This post
+[Part 1 - Intro and Programming Model](http://www.gkrishnan.com/bigdata/2015/06/07/apache-spark-part1-intro/) 
 
 
-[Part 2 - Building and running Spark applications](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part2-building-running-apps/)
+Part 2 - Building and running Spark applications - - This post
 
 
 [Part 3 - Coding up a Hello World application on Spark](http://www.gkrishnan.com/bigdata/2015/06/09/apache-spark-part3-hello-world/)
