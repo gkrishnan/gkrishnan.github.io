@@ -131,7 +131,7 @@ Network = () ->
   # our force directed layout
   force = d3.layout.force()
   # color function used to color nodes
-  nodeColors = d3.scale.category20()
+  nodeColors = d3.scale.category20b()
   # tooltip used to display details
   tooltip = Tooltip("vis-tooltip", 230)
 
