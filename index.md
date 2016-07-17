@@ -9,7 +9,7 @@ tagline: Supporting tagline
 
 Hello!
 
-I'm Gopi Krishnan Nambiar, a second year Masters in Computer Science student at Georgia Institute of Technology. This summer, I am working at Salesforce as a Software Development Intern. Prior to joining Georgia Tech, I worked on the txtWeb Platform at Intuit as a Senior Software Engineer. My interests are Machine Learning, Big Data and Programming. Feel free to drop me a note at gnambiar3[at]gatech[dot]edu. 
+I'm Gopi Krishnan Nambiar and I work at Salesforce in their Big Data team. I completed my Masters in Computer Science (Machine Learning + Big Data focus) at Georgia Institute of Technology in 2016. Last summer, as an intern I worked on buildng a few Machine Learning models for fraud detection. Prior to joining Georgia Tech, I worked on the txtWeb Platform at Intuit India as a Senior Software Engineer. My interests lie Machine Learning and utilizing big data to create a huge impact. Feel free to drop me a note at gnambiar3[at]gatech[dot]edu. 
 
 ## Posts
 
