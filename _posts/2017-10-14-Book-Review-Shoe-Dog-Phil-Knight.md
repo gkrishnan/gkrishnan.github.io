@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New paper published at the International Conference on Big Data Analytics, Data Mining and Computational Intelligence"
+title: "Book Review - Shoe Dog: A Memoir by the Creator of Nike"
 description: "Shoe Dog - Phil Knight"
 category: [reading]
 tags: [books, review]
