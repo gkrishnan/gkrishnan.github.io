@@ -15,7 +15,6 @@ I work at Salesforce's Big Data team and help build the applog ingestion and pro
 
 I completed my Masters in CS (ML+Big Data) at Georgia Tech, during which I TA'ed the course Data and Visual Analytics under Prof. Polo Chau. I also dabbled with fraud detection models during my summer internship with the Security Analytics team at Salesforce. 
 
-gk[at]gatech[dot]edu
 
 ## Posts
 
