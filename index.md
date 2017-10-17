@@ -9,7 +9,13 @@ tagline: Supporting tagline
 
 Hello!
 
-I'm Gopi Krishnan Nambiar and I work at Salesforce in their Big Data team. I completed my Masters in Computer Science (Machine Learning + Big Data focus) at Georgia Institute of Technology in 2016. Last summer, as an intern I worked on buildng a few Machine Learning models for fraud detection. Prior to joining Georgia Tech, I worked on the txtWeb Platform at Intuit India as a Senior Software Engineer. My interests lie Machine Learning and utilizing big data to create a huge impact. Feel free to drop me a note at gnambiar3[at]gatech[dot]edu. 
+I'm Gopi Krishnan Nambiar, an engineer interested in Machine Learning and Distributed Systems.
+ 
+I work at Salesforce's Big Data team and help build the applog ingestion and processing pipeline. Earlier, I worked for Intuit Bangalore on a text application platform - txtWeb.
+
+I completed my Masters in CS (ML+Big Data) at Georgia Tech, during which I TA'ed the course Data and Visual Analytics under Prof. Polo Chau. I also dabbled with fraud detection models during my summer internship with the Security Analytics team at Salesforce. 
+
+gk[at]gatech[dot]edu
 
 ## Posts
 
